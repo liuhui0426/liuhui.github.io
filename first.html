@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./ccs%20file/first.css" />
+		<title>第一步</title>s
+	</head>
+	<body>
+		<div class="bkg">
+			<div id="">
+		      <div class="title">
+		        <div class="title-left">
+		         <li class="titlel-first-li"><input type="button" name="" class="bt2" value="" /></li>
+		         <li class="titlel-second-li"><input type="button" name="" class="bt3" value="" /></li>
+		         <li class="titlel-third-li"><input type="button" name="" class="bt4" value="" /></li>
+		         <li class="titlel-forth-li"><p class="zi"><font size="40" color="white">倒计时: </font></p></li>
+		         <li class="titlel-fifth-li"><span id = "time" class="shijian"><font size="40" color="white">00:00:60</font></span><font size="40" color="white"></font></li>
+		        </div>
+		      </div>
+			</div>
+		</div>
+		<div id="" class="first">
+			
+		</div>
+		<div class="img-box"></div>
+    <script>
+		var time = 5 ;
+<!-- 2、倒计时读秒实现并判断跳转-->
+		function showTime (){
+			
+			time--;
+			if(time<=0){
+				//clearInterval(id);
+           
+				location.href = "second.html";
+			}
+			var sp = document.getElementById("time");
+			sp.innerHTML = time ;
+		}
+		
+		var id = setInterval(showTime,1000);
+		
+		
+	</script>
+	</body>
+</html>
