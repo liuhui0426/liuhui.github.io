@@ -1,0 +1,98 @@
+.banner {
+	        position: absolute;
+            width: 900px;
+            height: 450px;
+			top: 100px;
+            /* border: 1px solid red; */
+            margin: 100px auto;
+			left: 250px;
+        }
+.banner .wrap {
+	width: 100%;
+}
+.banner .wrap .item {
+	width: 100%;
+}
+.item img {
+	width: 900px;
+	height: 450px;
+	vertical-align: top;
+	position: absolute;
+}
+.div1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translatey(-50%);
+	cursor: pointer;
+	width: 41px;
+	height: 69px;
+	font-size: 30px;
+	line-height: 70px;
+	text-align: center;
+	color: #D6D8D4;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.div2 {
+	position: absolute;
+	left: 860px;
+	top: 50%;
+	transform: translatey(-50%);
+	cursor: pointer;
+	width: 41px;
+	height: 69px;
+	font-size: 30px;
+	line-height: 70px;
+	text-align: center;
+	color: #D6D8D4;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.pagenation {
+	position: absolute;
+	/* border: 1px solid red; */
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	bottom: 40px;
+}
+
+.pagenation>div {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.pagenation>div:last-child {
+	margin-right: 0;
+}
+.bt1{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	left: 350px;
+	top: 270px;
+	background-color:transparent;
+	border-style:none;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;   
+	text-decoration: none;
+	outline: none;
+	color: #87cefa;
+	background-color: #ffffff;
+	border: 2px solid #008cba;
+	border-radius: 8px;
+	box-shadow: 0 9px #999;
+}
+.bt1:hover 
+{background-color: #dcdcdc}
+ 
+.bt1:active {
+  background-color: #ffffff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

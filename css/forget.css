@@ -1,0 +1,207 @@
+/* 去除样式 */
+*{
+    margin: 0;
+    padding: 0;
+	overflow:hidden;
+}
+/* 设置背景颜色 */
+body{
+	background-image: url(main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* 设置左边插画位置、宽高等 */
+.bg {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: 490px;
+    height: 800px;
+}
+/* 设置插画上方的文字 */
+.bgword{
+    text-align: center;
+    width: 490px;
+    line-height: 50px;
+    color: rgb(170, 189, 189);
+    font-size: 35px;
+}
+/* 设置插画规格 */
+.bgsvg {
+    border-radius: 10%;
+    width: 490px;
+    height: 400px;
+    background: url(联合工作.svg);
+}
+/* 右边表单主体 */
+.beijin{
+	position: absolute;
+	border-radius: 2%;
+	top: 125px;
+	left: 300px;
+	width: 900px;
+	height: 550px;
+	background: url(main1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 10px 0px silver;
+}
+
+
+.interface{
+    position: absolute;
+    border-radius: 2%;
+	top: 30px;
+    right: 20px;
+    width: 350px;
+	height: 500px;
+	background-color: white;
+	box-shadow: 0 0 10px 0px silver;
+    
+}
+/* 表单标题 */
+.title {
+    color: rgb(247, 0, 0);
+    text-align: center;
+    margin: 30px;
+    height: 50px;
+    font-size: 30px;
+}
+/* 设置表单中表头名颜色 */
+.word {
+    color: rgb(126, 123, 123);
+}
+
+
+/* 为input标签设置相关属性 */
+input {
+    background-color:  	#ffffff;
+    border-radius : 5px ;
+    width: 250px;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 3px;
+/* 	margin-top: 15px;
+	margin-left: 25px; */
+    border: 1px solid silver;
+ 
+}
+/* 鼠标挪上输入验证码按钮，变色
+.identify:hover {
+    background-color:  rgb(44,105,127);
+}
+/* 登录按钮部分 */
+.login {
+	position: absolute;
+    margin-top: 15px;
+	top: 320px;
+	right: 50px;
+    width: 250px;
+    height: 50px;
+	border-radius: 5px;	
+  
+}
+.login1{
+	width: 250px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-color: #ff1745;
+	font-size: medium;
+	font-style: unset;
+	border-radius: 5px;
+	padding-left:10px ;
+	border:1px solid silver
+	
+}
+/* 鼠标挪上登录按钮，变色 */
+.login>input:hover {
+    background-color:  royalblue;
+}
+
+	
+.phonenumber{
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}
+
+.yanzheng{
+	position: absolute;
+	top: 150px;
+	left: 40px;
+}
+.btn{
+	position: absolute;
+	right: 6px;
+	top: 50%;
+	font-size: 7px;
+	height: 45px;
+/* 	padding: 0 20px; */
+	transform: translateY(-50%);
+	background:transparent;	/*按钮背景透明*/
+	border: 1px solid #000;
+	border-right:none;
+}
+
+.password{
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+
+.quepassword{
+	position: absolute;
+	top: 250px;
+	left: 40px;
+	
+}
+	
+.remind{
+	position: absolute;
+	top: 300px;
+	left: 235px;
+	font-size:1px;
+	font-style: oblique;
+}
+
+.remind2{
+	position: absolute;
+	top: 400px;
+	left: 150px;
+	font-size:1px;
+	border-style: none;
+	background:transparent;	/*按钮背景透明*/
+	border-width:0px;	/*边框透明*/
+	outline:none;	/*点击后没边框*/
+}
+
+.denglv{
+	position: absolute;
+	top: 400px;
+	left: 180px;
+	font-size:1px;
+	border-style: none;
+	background:transparent;	/*按钮背景透明*/
+	border-width:0px;	/*边框透明*/
+	outline:none;	/*点击后没边框*/
+}
+
+.tu1{
+	background-image: url(shou.jpg);
+	background-position: 4px 8px;
+	background-repeat: no-repeat;
+	padding-left:30px ;
+}
+.tu2{
+	background-image: url(yan.png);
+	background-position: 4px 8px;
+	background-repeat: no-repeat;
+	padding-left:30px ;
+}
+.tu3{
+	background-image: url(suo.jpg);
+	background-position: 4px 8px;
+	background-repeat: no-repeat;
+	padding-left:30px ;
+}
