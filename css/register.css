@@ -27,7 +27,7 @@ body{
 	left: 300px;
 	width: 900px;
 	height: 550px;
-	background: url(images/one.jpg);
+	background: url(main/images/one.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	box-shadow: 0 0 10px 0px silver;
@@ -163,19 +163,19 @@ input {
 }
 
 .tu1{
-	background-image: url(images/shou.jpg);
+	background-image: url(main/images/shou.jpg);
 	background-repeat: no-repeat;
 	background-position: 4px 8px;
 	padding-left:30px ;
 }
 .tu2{
-	background-image: url(images/yan.png);
+	background-image: url(main/images/yan.png);
 	background-repeat: no-repeat;
 	background-position: 4px 8px;
 	padding-left:30px ;
 }
 .tu3{
-	background-image: url(images/suo.jpg);
+	background-image: url(main/images/suo.jpg);
 	background-repeat: no-repeat;
 	background-position: 4px 8px;
 	padding-left:30px ;
