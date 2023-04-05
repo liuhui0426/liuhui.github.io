@@ -6,7 +6,7 @@
 }
 /* 设置背景颜色 */
 body{
-	background-image: url(main.jpg);
+	background-image: url(images/main.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -194,13 +194,13 @@ input {
 	padding-left:30px ;
 }
 .tu2{
-	background-image: url(yan.png);
+	background-image: url(images/yan.png);
 	background-position: 4px 8px;
 	background-repeat: no-repeat;
 	padding-left:30px ;
 }
 .tu3{
-	background-image: url(suo.jpg);
+	background-image: url(images/suo.jpg);
 	background-position: 4px 8px;
 	background-repeat: no-repeat;
 	padding-left:30px ;
