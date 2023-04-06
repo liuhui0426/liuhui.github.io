@@ -6,9 +6,9 @@
 }
 /* 设置背景颜色 */
 body{
-	background-image: url(../../images/main.jpg);
+	background-image: url(../images/main.jpg);
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
+/* 	background-repeat: no-repeat; */
 	background-attachment: fixed;
 }
 /* 设置左边插画位置、宽高等 */
