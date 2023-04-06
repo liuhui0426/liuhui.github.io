@@ -97,6 +97,7 @@
   height: 670px;
   margin-top: 3px;
   background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/%E9%A1%B5%E9%9D%A2%201%20.png);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
 }
