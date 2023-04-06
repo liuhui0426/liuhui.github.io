@@ -1,21 +1,21 @@
 @keyframes gif {
 	0% {
-		background-image: url(../images/101.png);
+		background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/101.png);
 	}
 	20% {
-		background-image: url(../images/102.png);
+		background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/102.png);
 	}
 	40% {
-		background-image: url(../images/103.png);
+		background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/103.png);
 	}
 	60% {
-		background-image: url(../images/104.png);
+		background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/104.png);
 	}
 	80% {
-		background-image: url(../images/105.png);
+		background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/105.png);
 	}
 	100% {
-		background-image: url(../images/106.png);
+		background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/106.png);
 	}
 }
 
@@ -41,7 +41,7 @@
   position: absolute;
   width: 100%;
   height: 90px;
-  background-image: url(../images/001.png);
+  background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/001.png);
   background-size:  100% 100%;
   
 }
@@ -100,7 +100,7 @@
 	width: 100%;
 	height: 100%;
 	float: left;
-	background-image: url(../images/002.png);
+	background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/002.png);
 	background-size: 100% 100%;
 	background-color:transparent;
 	border-style:none;
@@ -125,7 +125,7 @@
 	width: 100%;
 	height: 100%;
 	float: left;
-	background-image: url(../images/003.png);
+	background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/003.png);
 	background-size: 100% 100%;
 	background-color:transparent;
 	border-style:none;
@@ -149,7 +149,7 @@
 	width: 100%;
 	height: 100%;
 	float: left;
-	background-image: url(../images/004.png);
+	background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/004.png);
 	background-size: 100% 100%;
 	background-color:transparent;
 	border-style:none;
@@ -175,7 +175,7 @@
 	height: 100%;
 	background-color:transparent;
 	border-style:none;
-	background-image: url(../images/007.png);
+	background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/007.png);
 	background-size: 100% 100%;
     border: 1px solid #ffffff;
 	border-radius: 5px;
@@ -198,7 +198,7 @@
 	height: 400px;
 	left: 10px;
 	top: 100px;
-	background-image: url(../images/013.png);
+	background-image: url(https://raw.githubusercontent.com/liuhui0426/liuhui0426.github.io/main/images/013.png);
 	background-size:  100% 100%;
 }
 
